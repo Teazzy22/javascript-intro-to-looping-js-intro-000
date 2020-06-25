@@ -18,10 +18,15 @@ function whileLoop(n) {
     return "done";
 }
 
-function doWhileLoop(num) {
-//  num = num + 1;
-//  return num;
-do {
-  console.log("I run once regardless.");
-} while (doWhileLoop() < num);
+function maybeTrue() {
+  return Math.random() >= 0.5
 }
+function doWhileLoop(array){
+do {
+  array.pop()
+} while (array.length>0 && maybeTrue())
+return array
+}
+
+do_while_arr = ['a','b','c'];
+console.log(doWhileLoop(do_while_arr))
