@@ -20,9 +20,9 @@ function maybeTrue() {
   return Math.random() >= 0.5;
 }
 
-function doWhileLoop(n) {
+function doWhileLoop(num) {
   do {
     console.log('I run once regardless.');
   } while (maybeTrue())
-  return n;
+  return num;
 }
