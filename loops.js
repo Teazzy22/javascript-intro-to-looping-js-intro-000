@@ -23,6 +23,7 @@ function maybeTrue() {
 function doWhileLoop(array) {
   do {
     console.log('I run once regardless.');
+    array++;
   } while (maybeTrue())
   return array;
 }
