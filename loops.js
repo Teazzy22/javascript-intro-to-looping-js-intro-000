@@ -13,7 +13,7 @@ function whileLoop(n) {
   let countdown = n;
 
     while (countdown > 0) {
-    conmsole.log(--countdown)
+      console.log(--countdown)
   }
 }
   return "done";
