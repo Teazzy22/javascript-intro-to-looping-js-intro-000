@@ -19,7 +19,7 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(num) {
-  let result = 'L run once regardless.';
+  let result = 'I run once regardless.';
   let i = 0;
 
   do {
