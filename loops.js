@@ -20,8 +20,8 @@ function whileLoop(n) {
 
 function doWhileLoop(integer) {
   let integer = 0;
-  integer += 1;
-  return i;
+  integer++;
+  return integer;
   do {
     console.log('I run once regardless.');
   } while (integer < 10);
