@@ -24,4 +24,5 @@ function doWhileLoop(array) {
   do {
     console.log('I run once regardless.');
   } while (maybeTrue())
+  return array;
 }
