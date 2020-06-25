@@ -17,3 +17,14 @@ function whileLoop(n) {
   }
     return "done";
 }
+
+function doWhileLoop(array) {
+  let i = 0;
+  function incrementVariable() {
+    i +=;
+    return i;
+  }
+  do {
+    console.log('I run once regardless.')
+  } while (incrementVariable() < 5);
+}
