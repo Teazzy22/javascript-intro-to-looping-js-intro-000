@@ -23,7 +23,6 @@ function doWhileLoop(i) {
 
   do {
     i += 1;
-    return result;
   } while (incrementVariable() < 10);
 
   console.log('I run once regardless.');
