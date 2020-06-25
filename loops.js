@@ -18,7 +18,7 @@ function whileLoop(n) {
     return "done";
 }
 
-function doWhileLoop() {
+function doWhileLoop(array) {
   function maybeTrue() {
     return Math.rendom() >= 0.5
   }
