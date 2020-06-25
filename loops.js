@@ -23,7 +23,7 @@ function doWhileLoop(num) {
   let i = 0;
 
   do {
-    i = i + 1;
+    i++;
     result = result + i;
   } while (i < 10);
 
