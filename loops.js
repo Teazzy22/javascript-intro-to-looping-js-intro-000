@@ -8,3 +8,9 @@ function forLoop(array) {
   }
   return array;
 }
+
+function whileLoop(array) {
+  let i = n;
+  while (i > 0)
+    conmsole.log(i--);
+}
