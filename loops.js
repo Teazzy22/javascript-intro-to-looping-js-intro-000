@@ -21,9 +21,9 @@ function whileLoop(n) {
 function doWhileLoop(num) {
   let result = 'I run once regardless.';
   let i = 0;
+  i++;
 
   do {
-    i++;
     result = result + i;
   } while (i < 10);
 
