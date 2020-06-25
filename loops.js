@@ -24,4 +24,5 @@ do {
   num++;
   console.log("I run once regardless.");
 } while (doWhileLoop() <= 10);
+return num;
 }
