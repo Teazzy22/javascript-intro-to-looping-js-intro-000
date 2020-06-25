@@ -22,4 +22,9 @@ function doWhileLoop(array) {
   function maybeTrue() {
     return Math.rendom() >= 0.5
   }
+
+  do {
+    array.pop();
+  } while (array.length > 1 && maybeTrue());
+  return array;
 }
