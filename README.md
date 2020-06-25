@@ -1,4 +1,4 @@
-updateObjectWithKeyAndValue# JavaScript Loops
+# JavaScript Loops
 
 ## Objectives
 
