@@ -23,6 +23,5 @@ function maybeTrue() {
 function doWhileLoop(array) {
   do {
     console.log('I run once regardless.');
-  } while (array.length < 10 && maybeTrue())
-  return array;
+  } while (maybeTrue())
 }
