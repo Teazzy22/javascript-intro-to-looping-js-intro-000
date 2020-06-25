@@ -21,10 +21,10 @@ function whileLoop(n) {
 function doWhileLoop(num) {
   let result = 'I run once regardless.';
   let i = 0;
-  i++;
 
   do {
     result = result + i;
+    i = i + 1;
   } while (i < 10);
 
   console.log(result);
