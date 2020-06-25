@@ -10,7 +10,9 @@ function forLoop(array) {
 }
 
 function whileLoop(array) {
-  let i = n;
-  while (i > 0)
-    conmsole.log(i--);
+  let countdown = n;
+
+  while (countdown > 0)
+    conmsole.log(--countdown)
 }
+  return "done";
