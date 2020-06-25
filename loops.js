@@ -18,8 +18,8 @@ function whileLoop(n) {
     return "done";
 }
 
-function doWhileLoop(i) {
-  let result = '';
+function doWhileLoop(num) {
+  let result = 'L run once regardless.';
   let i = 0;
 
   do {
