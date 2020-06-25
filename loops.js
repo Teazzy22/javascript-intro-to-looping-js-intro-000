@@ -10,12 +10,14 @@ function forLoop(array) {
 }
 
 function whileLoop(n) {
-  //let countdown = n;
-
     while (n > 0) {
       console.log(--n)
   }
     return "done";
+}
+
+function maybeTrue() {
+  return Math.random() >= 0.5
 }
 
 function doWhileLoop(array) {
