@@ -23,8 +23,8 @@ function doWhileLoop(num) {
   let i = 0;
 
   do {
+    i += 1;
     result = result + i;
-    i = i + 1;
   } while (i < 10);
 
   console.log(result);
