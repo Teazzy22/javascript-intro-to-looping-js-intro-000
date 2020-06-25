@@ -18,7 +18,7 @@ function whileLoop(n) {
     return "done";
 }
 
-let i = 0;
+let i = -1;
 
 function doWhileLoop() {
   i = i + 1;
