@@ -25,7 +25,7 @@ function doWhileLoop(num) {
   do {
     i = i + 1;
     result = result + i;
-  } while (i < 5);
+  } while (i < 10);
 
   console.log(result);
 }
