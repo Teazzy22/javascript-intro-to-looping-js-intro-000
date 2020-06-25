@@ -18,7 +18,7 @@ function whileLoop(n) {
     return "done";
 }
 
-function doWhileLoop() {
+function doWhileLoop(i) {
   let result = 'I run once regardless.';
   let i = 0;
 
