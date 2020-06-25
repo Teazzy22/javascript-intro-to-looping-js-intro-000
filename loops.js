@@ -18,13 +18,13 @@ function whileLoop(n) {
     return "done";
 }
 
-function doWhileLoop(num) {
+function doWhileLoop() {
   let result = 'I run once regardless.';
   let i = 0;
 
   do {
     i += 1;
-    //result += i + ' ';
+    result = i + ' ';
   } while (i < 10);
 
   console.log(result);
