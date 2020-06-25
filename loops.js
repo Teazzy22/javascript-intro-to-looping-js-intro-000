@@ -22,7 +22,7 @@ function maybeTrue() {
 
 function doWhileLoop(array) {
   do {
-    array = array.slice(1);
+    console.log('I run once regardless.');
   } while (array.length < 10 && maybeTrue())
-  return array
+  return array;
 }
