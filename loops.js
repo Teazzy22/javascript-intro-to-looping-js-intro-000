@@ -24,7 +24,7 @@ function doWhileLoop(i) {
 
   do {
     i += 1;
-    result += i +  ' ';
+    return result;
   } while (i < 10);
 
   console.log(result);
