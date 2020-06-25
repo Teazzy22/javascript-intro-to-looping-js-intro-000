@@ -18,13 +18,9 @@ function whileLoop(n) {
     return "done";
 }
 
-function doWhileLoop(i) {
-  let i = 0;
-  i++;
-  return i;
+function doWhileLoop(array) {
   do {
-    console.log('I run once regardless.');
-  } while (i < 10);
-
-  console.log('I run once regardless.');
+    array.pop()
+  } while (array.length > 0 && maybeTrue());
+  return array;
 }
